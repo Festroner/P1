@@ -12,10 +12,10 @@ public class EscribeJSON {
     public static void main(String[] args) {
     	
     	
-    	ArrayList<golfPlayer> jugadores = new ArrayList<golPlayer>();
+    	ArrayList<golfPlayer> g = new ArrayList<golfPlayer>();
     	
     	Gson gson = new GsonBuilder().setPrettyPrinting().create();
-        String jsonStr = gson.toJson(jugadores);
+        String jsonStr = gson.toJson(g);
         System.out.println(jsonStr);
     }
     

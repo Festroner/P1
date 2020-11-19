@@ -43,8 +43,9 @@ public class LeerCSV {
      
            // call the parse method of CsvToBean 
            // pass strategy, csvReader to parse method 
-           List<golfPlayer> list = csvToBean.parse(strategy, csvReader); 
-     
-        return players;
+           //List<golfPlayer> list = csvToBean.parse(strategy, csvReader); 
+           
+           ArrayList<golfPlayer> g = new ArrayList<golfPlayer>();
+        return g;
     }
 }
