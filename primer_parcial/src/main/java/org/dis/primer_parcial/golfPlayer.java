@@ -1,6 +1,6 @@
 package org.dis.primer_parcial;
 
-public class golfplayer {
+public class golfPlayer {
 	private int Posicion;
 	private String Nombre;
 	private String Apellido;
@@ -8,7 +8,7 @@ public class golfplayer {
 	private int Edad;
 	
 	
-	public golfplayer(int posicion, String nombre, String apellido, String pais, int edad) {
+	public golfPlayer(int posicion, String nombre, String apellido, String pais, int edad) {
 		super();
 		Posicion = posicion;
 		Nombre = nombre;

@@ -1,15 +1,18 @@
 // lectura del fichero csv mediante el objeto plano y su carga en una lista de objetos de este tipo
 package org.dis.primer_parcial;
+import java.util.*;
 
-import java.awt.List;
+
+import com.opencsv.bean.CsvToBean;
+import com.opencsv.bean.CsvToBeanBuilder;
 
 // Otros imports ...
 
 public class LeerCSV {
 
-    public List<golfPlayer> parseaCSV(String path) {
-        ....
-        List<golfPlayer> players = csvToBean.parse();
+    public ArrayList<golfPlayer> parseaCSV(String path) {
+        
+        ArrayList<golfPlayer> players = new CsvToBeanBuilder(FileReader("../../../../../../../best-golf-players.csv"))
         return players;
     }
 }
